@@ -2,11 +2,11 @@ public class Ultralights
 {
     public static void main(String[] args)
     {
-        Simulation_57105 s = new Simulation_57105();
+        Imamidin_57105 ima = new Imamidin_57105();
         for (int i = 0; i < 6; i++)
         {
-            System.out.println(s);
-            s.ChangeColor_57105();
+            System.out.println(ima);
+            ima.ChangeColor_57105();
         }
     }
 }
@@ -14,7 +14,7 @@ public class Ultralights
 enum Lights
 {Black, Brown, Blue}
 
-class Simulation_57105
+class Imamidin_57105
 {
     Lights Ls = Lights.Black;
     void ChangeColor_57105()
